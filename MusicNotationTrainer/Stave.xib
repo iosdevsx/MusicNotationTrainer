@@ -10,8 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoteView" customModule="MusicNotationTrainer" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Stave">
             <connections>
+                <outlet property="trebleClef" destination="1xQ-ed-hN7" id="SlU-BR-NqV"/>
                 <outlet property="view" destination="iN0-l3-epB" id="O8I-GL-EVi"/>
                 <outletCollection property="lines" destination="Q3a-dw-fZK" collectionClass="NSMutableArray" id="dSt-tM-0uk"/>
                 <outletCollection property="lines" destination="Gp0-pj-6eX" collectionClass="NSMutableArray" id="2Vm-ay-erQ"/>

@@ -12,9 +12,14 @@
 		8C33A5B31F5C722A0052BCD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C33A5B11F5C722A0052BCD6 /* Main.storyboard */; };
 		8C33A5B51F5C722A0052BCD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C33A5B41F5C722A0052BCD6 /* Assets.xcassets */; };
 		8C33A5B81F5C722A0052BCD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C33A5B61F5C722A0052BCD6 /* LaunchScreen.storyboard */; };
-		8C33A5C01F5C72880052BCD6 /* NoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C33A5BF1F5C72880052BCD6 /* NoteView.xib */; };
-		8C33A5C21F5C75D50052BCD6 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C11F5C75D50052BCD6 /* NoteView.swift */; };
+		8C33A5C01F5C72880052BCD6 /* Stave.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C33A5BF1F5C72880052BCD6 /* Stave.xib */; };
+		8C33A5C21F5C75D50052BCD6 /* Stave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C11F5C75D50052BCD6 /* Stave.swift */; };
 		8C33A5C41F5C792C0052BCD6 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C31F5C792C0052BCD6 /* Enums.swift */; };
+		8C33A5C61F5E763A0052BCD6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C51F5E763A0052BCD6 /* Note.swift */; };
+		8C33A5C81F5E88BD0052BCD6 /* NotesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C71F5E88BD0052BCD6 /* NotesExtensions.swift */; };
+		8C33A5CA1F5E8D840052BCD6 /* StaveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5C91F5E8D840052BCD6 /* StaveExtensions.swift */; };
+		8C33A5CD1F5E96020052BCD6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5CC1F5E96020052BCD6 /* Queue.swift */; };
+		8C33A5D21F5EAC980052BCD6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33A5D11F5EAC980052BCD6 /* Stack.swift */; };
 		B772E844FDE9252E004E64E9 /* Pods_MusicNotationTrainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A7C4E090801D295F64AF84 /* Pods_MusicNotationTrainer.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +34,14 @@
 		8C33A5B41F5C722A0052BCD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C33A5B71F5C722A0052BCD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C33A5B91F5C722A0052BCD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C33A5BF1F5C72880052BCD6 /* NoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteView.xib; sourceTree = "<group>"; };
-		8C33A5C11F5C75D50052BCD6 /* NoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		8C33A5BF1F5C72880052BCD6 /* Stave.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Stave.xib; sourceTree = "<group>"; };
+		8C33A5C11F5C75D50052BCD6 /* Stave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stave.swift; sourceTree = "<group>"; };
 		8C33A5C31F5C792C0052BCD6 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8C33A5C51F5E763A0052BCD6 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8C33A5C71F5E88BD0052BCD6 /* NotesExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesExtensions.swift; sourceTree = "<group>"; };
+		8C33A5C91F5E8D840052BCD6 /* StaveExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaveExtensions.swift; sourceTree = "<group>"; };
+		8C33A5CC1F5E96020052BCD6 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		8C33A5D11F5EAC980052BCD6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +91,48 @@
 				8C33A5B41F5C722A0052BCD6 /* Assets.xcassets */,
 				8C33A5B61F5C722A0052BCD6 /* LaunchScreen.storyboard */,
 				8C33A5B91F5C722A0052BCD6 /* Info.plist */,
-				8C33A5BF1F5C72880052BCD6 /* NoteView.xib */,
-				8C33A5C11F5C75D50052BCD6 /* NoteView.swift */,
 				8C33A5C31F5C792C0052BCD6 /* Enums.swift */,
+				8C33A5D01F5E98A60052BCD6 /* Components */,
+				8C33A5CE1F5E976B0052BCD6 /* Common */,
+				8C33A5CB1F5E92BE0052BCD6 /* Extensions */,
 			);
 			path = MusicNotationTrainer;
+			sourceTree = "<group>";
+		};
+		8C33A5CB1F5E92BE0052BCD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C33A5C71F5E88BD0052BCD6 /* NotesExtensions.swift */,
+				8C33A5C91F5E8D840052BCD6 /* StaveExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8C33A5CE1F5E976B0052BCD6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8C33A5CF1F5E97730052BCD6 /* Structures */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8C33A5CF1F5E97730052BCD6 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				8C33A5CC1F5E96020052BCD6 /* Queue.swift */,
+				8C33A5D11F5EAC980052BCD6 /* Stack.swift */,
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
+		8C33A5D01F5E98A60052BCD6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C33A5BF1F5C72880052BCD6 /* Stave.xib */,
+				8C33A5C11F5C75D50052BCD6 /* Stave.swift */,
+				8C33A5C51F5E763A0052BCD6 /* Note.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 		9E72116690CEFD5572933E53 /* Pods */ = {
@@ -162,7 +209,7 @@
 			files = (
 				8C33A5B81F5C722A0052BCD6 /* LaunchScreen.storyboard in Resources */,
 				8C33A5B51F5C722A0052BCD6 /* Assets.xcassets in Resources */,
-				8C33A5C01F5C72880052BCD6 /* NoteView.xib in Resources */,
+				8C33A5C01F5C72880052BCD6 /* Stave.xib in Resources */,
 				8C33A5B31F5C722A0052BCD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C33A5C61F5E763A0052BCD6 /* Note.swift in Sources */,
+				8C33A5D21F5EAC980052BCD6 /* Stack.swift in Sources */,
 				8C33A5B01F5C722A0052BCD6 /* ViewController.swift in Sources */,
 				8C33A5AE1F5C722A0052BCD6 /* AppDelegate.swift in Sources */,
+				8C33A5CD1F5E96020052BCD6 /* Queue.swift in Sources */,
+				8C33A5CA1F5E8D840052BCD6 /* StaveExtensions.swift in Sources */,
+				8C33A5C81F5E88BD0052BCD6 /* NotesExtensions.swift in Sources */,
 				8C33A5C41F5C792C0052BCD6 /* Enums.swift in Sources */,
-				8C33A5C21F5C75D50052BCD6 /* NoteView.swift in Sources */,
+				8C33A5C21F5C75D50052BCD6 /* Stave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +445,7 @@
 				8C33A5BE1F5C722A0052BCD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

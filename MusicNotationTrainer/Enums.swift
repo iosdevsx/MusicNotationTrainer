@@ -9,15 +9,32 @@
 import Foundation
 import UIKit
 
-enum Notes: UInt32 {
-    case SmallC, SmallD, SmallE, SmallF, SmallG, SmallA, SmallH,
-    FirstC, FirstD, FirstE, FirstF, FirstG, FirstA, FirstH,
-    SecondC, SecondD, SecondE, SecondF, SecondG, SecondA, SecondH
+enum MusicalNote: UInt32 {
+    case Do, Re, Mi, Fa, Sol, La, Si
     
-    static func randomNote() -> Notes {
-        let all = [SmallC, SmallD, SmallE, SmallF, SmallG, SmallA, SmallH,
-                   FirstC, FirstD, FirstE, FirstF, FirstG, FirstA, FirstH,
-                   SecondC, SecondD, SecondE, SecondF, SecondG, SecondA, SecondH]
-        return Notes.init(rawValue: arc4random_uniform(UInt32(all.count)))!
+    static func randomNote() -> MusicalNote {
+        let all = [Do, Re, Mi, Fa, Sol, La, Si]
+        return MusicalNote.init(rawValue: arc4random_uniform(UInt32(all.count)))!
     }
+}
+
+enum Octave: UInt32 {
+    case Small, First, Second
+    
+    static func randomOctave() -> Octave {
+        let all = [Small, First, Second]
+        return Octave.init(rawValue: arc4random_uniform(UInt32(all.count)))!
+    }
+}
+
+/*
+ Upper lines: 54321
+ Center lines: 12345
+ Lower lines: 12345
+ */
+
+enum Line {
+    case upperFirst, upperSecond, upperThird, upperFourth, upperFifth,
+    centerFirst, centerSecond, centerThird, centerFourth, centerFifth,
+    lowerFirst, lowerSecond, lowerThird, lowerFourth, lowerFifth
 }

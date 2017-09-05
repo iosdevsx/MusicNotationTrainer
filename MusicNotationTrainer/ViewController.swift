@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var noteView: NoteView!
+    @IBOutlet weak var stave: Stave!
     
     var count = 0
     
@@ -24,11 +24,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func createRandomNote(_ sender: Any) {
-        let note = Notes.randomNote()
+        stave.clearStave()
         
-        print("note is \(note)")
+        let note = MusicalNote.randomNote()
+        let octave = Octave.randomOctave()
         
-        self.noteView.setup(note: note)
+        let noteView = Note.init(symbol: note, octave: octave)
+        
+        stave.setup(note: noteView)
     }
 }
 
