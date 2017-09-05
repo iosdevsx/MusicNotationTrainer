@@ -1,0 +1,6 @@
+framework module Pods_MusicNotationTrainer {
+  umbrella header "Pods-MusicNotationTrainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
