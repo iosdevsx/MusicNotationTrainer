@@ -155,7 +155,6 @@ class NoteView: UIView {
         for line in upperLines {
             line.isHidden = true
         }
-        
         for line in lowerLines {
             line.isHidden = true
         }
